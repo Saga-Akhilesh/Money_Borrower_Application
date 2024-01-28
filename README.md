@@ -1,3 +1,7 @@
+Name: Saga Naga Sai Akhilesh
+Registration Number: 20BCE7010
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
