@@ -59,7 +59,7 @@ const LoginPage = ({setIsLoggedIn, setUserRole}) => {
             Login
           </Button>
           <div className="mt-2">
-            <a href="/register"><center>Create an account</center></a>
+            <a href="/register">Create an account</a>
           </div>
         </Form>
       </div>
