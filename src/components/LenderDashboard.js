@@ -55,18 +55,18 @@ const LenderDashboard = () => {
                   <td>{loan.loanAmount}</td>
                   <td>{loan.loanReason}</td>
                   <td>
-                    {loan.status === "Pending" && (
+                    {loan.status === "Approved" && (
                       <Button
                         color="success"
-                        onClick={() => handleConfirmPayment(loan.id)}
+                        onClick={() => handlePay(loan.id)}
                       >
                         Paid
                       </Button>
                     )}
-                    {loan.status === "Approved" ? (
+                    {loan.status === "Pending" ? (
                       <Button
                         color="primary"
-                        onClick={() => handlePay(loan.id)}
+                        onClick={() => handleConfirmPayment(loan.id)}
                       >
                         Pay
                       </Button>
