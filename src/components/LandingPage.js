@@ -7,7 +7,7 @@ const LandingPage = () => {
     <div className="landing-page">
       <div fluid>
         <Container fluid>
-          <h1 className="display-3"><center>MergerWare Assignment</center></h1>
+          <h1 className="display-3"><center>Money Borrower Application</center></h1>
           <p className="lead"><center>Register or login to get started.</center></p>
           <div className="button-container">
             <Link to="/register">
@@ -27,3 +27,4 @@ const LandingPage = () => {
   );
 };
 export default LandingPage;
+
